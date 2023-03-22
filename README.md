@@ -15,9 +15,20 @@
 
 ##  Usage
 ###  Novel View Synthesis
+
+Using venv:
+```
+python -m venv zero123_env
+source zero123_env/bin/activate 
+```
+
+using conda:
 ```
 conda create -n zero123 python=3.9
 conda activate zero123
+```
+
+```
 cd zero123
 pip install -r requirements.txt
 git clone https://github.com/CompVis/taming-transformers.git
