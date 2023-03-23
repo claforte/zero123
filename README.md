@@ -30,6 +30,7 @@ conda activate zero123
 
 ```
 cd zero123
+pip install wheel
 pip install -r requirements.txt
 git clone https://github.com/CompVis/taming-transformers.git
 pip install -e taming-transformers/
